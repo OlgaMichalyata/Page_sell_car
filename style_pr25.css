@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+body {
+    background-color:#282828;
+    margin: 0;
+}
+.menu_complex {
+    background-image: url(images/Layer\ 13.png);
+    height: 680px;
+}
+.menu_selbst {
+    display: flex;
+    align-items: center;
+    padding: 35px 0 110px 95px;
+}
+.logo {
+    width: 300px;
+    height: 100px; 
+}
+.nav {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    margin: 0;
+    padding-left: 200px;
+}
+.nav li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    line-height: 1.222;
+}
+.nav li a:hover {
+    background-color: #130e27;
+    border-radius: 10%;
+}
+.complex_schrift h1{
+    font-size: 90px;
+    font-family: "Montserrat";
+    color: rgb(19, 14, 39);
+    font-weight: bold;
+    line-height: 0.889;
+    text-transform: uppercase;
+    margin: 0;
+    padding-left: 110px;
+}
+.complex_schrift p {
+    margin: 0;
+    padding: 45px 0 155px 110px;
+    max-width: 600px;
+    font-size: 20px;
+    font-family: "PT Serif";
+    color: rgb(255, 255, 255);
+    line-height: 1.4;     
+}
+.white_text h1{
+    color: rgb(255, 255, 255);
+}
+.complex_ourservice {
+ height: 480px;
+ background-color: #fff;
+ margin: 0;
+}
+.title_ourservice h1 {
+    margin: 0;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: rgb(198, 35, 20);
+    font-weight:900;
+    line-height: 40px;
+    text-transform: uppercase;    
+    padding: 45px 0 95px 100px; 
+}
+.text_service {
+    color:#130e27;
+}
+.icons {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin: 0 40px 0 40px;
+}
+.icon {
+    font-size: 150px;
+}
+.icon p{
+    max-width: 180px;
+    font-size: 20px;
+    font-family: "PT Serif";
+    color: rgb(22, 22, 22);
+    line-height: 1.4; 
+}
+.blu_line_complex {
+    height: 120px;
+    background-color: #130e27;
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+}
+.button a{
+    display: flex;
+    background-color: #c62314;
+    margin: 30px 100px 25px 0;
+    font-size: 22px;
+    font-family: "Montserrat";
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 19px 70px;
+    border-radius:10px;
+}
+.text_bluline {
+    max-width: 750px;
+    font-size: 20px;
+    font-family: "PT Serif";
+    line-height: 1.4;
+    padding: 25px 0 40px 100px;    
+}
+.button a:hover {
+    color:#c62314; 
+    background-color: rgb(255, 255, 255);
+}
+.complex_sell {
+    height: 620px;
+    background-color: #efefef;
+}
+.title_sell {
+    margin: 0;
+    font-size: 50px;
+    font-family: "Montserrat";
+    color: rgb(19, 14, 39);
+    font-weight: bold;
+    line-height: 1.6;
+    text-transform: uppercase;
+    padding: 42.5px 486px 37.5px 500px; 
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 100px 60px 100px;
+}
+.card p{
+    font-size: 20px;
+    font-family: "PT Serif";
+    color: rgb(22, 22, 22);
+    line-height: 1.4;   
+    margin: 0;   
+}
+.card {
+   background-color: #fff;
+   width: 320px;  
+   height: 400px; 
+   margin:10px;
+   text-align: center;
+}
+.big_text {
+    font-size: 60px;
+    font-family: "Montserrat";
+    color: rgb(198, 35, 20);
+    font-weight: bold;    
+    padding-bottom: 20px;    
+}
+.main_text{
+    padding: 30px 0 20px 0;
+}
+.button_sell {
+    text-transform: uppercase;  
+    display: flex;   
+    align-items: center; 
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 15px;
+} 
+.button_sell a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px 55px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Montserrat";
+    background-color: #130e27;
+}
+.button_sell a:hover {
+    background-color: #c62314;
+    color:rgb(6, 40, 70);
+}
+.complex_end {
+    height: 190px;
+    background-color: #130e27;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.text_end p{
+    margin: 0;
+    font-size: 20px;
+    font-family: "PT Serif";
+    color: rgb(255, 255, 255);   
+}
+.ofher_color {
+    color:#c62314;
+}
